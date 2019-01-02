@@ -1,8 +1,6 @@
 ##################################
-# Joker Check v 0.3.1
+# Better flags v0.1
 # author : Wobo#1287
-#
-# 0.3 | added logging support
 ##################################
 
 import ac, acsys
