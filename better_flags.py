@@ -1,5 +1,5 @@
 ##################################
-# Better Flags v0.1
+# Better flags v0.1
 # author : Wobo#1287
 ##################################
 
@@ -50,6 +50,8 @@ def acMain(ac_version):
     ac.setFontSize(ui_flag, int(scaled_font))
     ac.setText(ui_flag, "")
 
+
+    ac.log("WCZYTANO FLAGI")
     return appName
 
 
