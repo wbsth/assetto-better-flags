@@ -1,5 +1,5 @@
 ##################################
-# Better flags v0.1
+# Better Flags v0.1
 # author : Wobo#1287
 ##################################
 
@@ -50,8 +50,6 @@ def acMain(ac_version):
     ac.setFontSize(ui_flag, int(scaled_font))
     ac.setText(ui_flag, "")
 
-
-    ac.log("WCZYTANO FLAGI")
     return appName
 
 
@@ -91,18 +89,15 @@ def set_blue_flag():
     global flagtype, ui_flag
     ac.setText(ui_flag, "BLUE FLAG")
     ac.setFontColor(ui_flag, 0, 0, 1, 1)
-    ac.console("BLUE FLAG")
 
 
 def set_yellow_flag():
     global flagtype, ui_flag
     ac.setText(ui_flag, "YELLOW FLAG")
     ac.setFontColor(ui_flag, 1, 1, 0, 1)
-    ac.console("YELLOW FLAG")
 
 
 def clear_flags():
     global flagtype, ui_flag
     ac.setFontColor(ui_flag, 1, 1, 1, 0)
-    ac.console("CLEAR FLAG")
 
